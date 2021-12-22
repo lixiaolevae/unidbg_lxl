@@ -50,7 +50,7 @@ public class JDPaiDaoJiaSoInvoke extends AbstractJni {
                 , "k2([B)Ljava/lang/String;"
                 , new ByteArray(vm, "参数".getBytes("UTF-8"))
         );
-        zClass.callStaticJniMethod(emulator, "k2([B)Ljava/lang/String;", );
+
 //        Object value = strRc.getValue();
         System.out.println(" callGetSignKeyV1 = " + strRc.getValue());
     }
